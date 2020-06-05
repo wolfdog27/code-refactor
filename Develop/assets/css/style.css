@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    /* moved font family down here from .header */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* added another class to differenciate */
+.topbar {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Deleted below - not needed */
+/* .header div ul {
+    list-style-type: none;
+} */
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* changed name from hero to be more clear - or is this not nessesary? */
+.main-picture {
+    height: 800px;
+    /* width: 100%; took this out becasue isn't it always 100%? */ 
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* rearranged order to match html */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* .float-left { - deleted and added to img
+} */
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+/* .float-right { - deleted and added to img
+    float: right;
+    margin-left: 25px;
+} */
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+    /* added float and margin due to .floatleft class */
+    float: left;
+    margin-right: 25px;
+}
+
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    /* clear: both; dont need??? */
+    float: right;
+    width: 20%;
+    /* height: 100%; dont need because it is already at 100%?*/ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+.cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
+.footer {
+    padding: 30px;
+    /* clear: both; - don't need? */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
